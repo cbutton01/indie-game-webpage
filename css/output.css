@@ -1,11 +1,18 @@
-body  {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html  {
   background-color: #e8e9eb;
-  color: #e8e9eb;
+  color: #313638;
+  height: 100%;
 }
 
 .parallax {
   background-image: url("../img/pacific-crest.png");
   height: 100%;
+  width: 100vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,12 +20,16 @@ body  {
 }
 
 .text {
+  height: 100%;
+  width: 100vw;
 display: flex;
 }
 
+.forground {
+  background-image: url("../img/untitledforground.png");
+}
+
 .placeholder-rect {
-  margin-top: 500px;
-  /*height: 5000px;*/
   width: 100vw;
   background-color: #313638;
 }
