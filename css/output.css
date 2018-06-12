@@ -1,12 +1,24 @@
 body  {
-  background: url("../img/pacific-crest.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #e8e9eb;
-  color: #313638;
+  color: #e8e9eb;
+}
+
+.parallax {
+  background-image: url("../img/pacific-crest.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text {
-  display: grid;
-  /*grid-template-rows: repeat(6, 1fr);*/
+display: flex;
+}
+
+.placeholder-rect {
+  margin-top: 500px;
+  /*height: 5000px;*/
+  width: 100vw;
+  background-color: #313638;
 }
