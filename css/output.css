@@ -3,9 +3,9 @@
   padding: 0;
 }
 
-body, html  {
-  background-color: #e8e9eb;
-  color: #313638;
+body, html {
+  background-color: #313638;
+  color: #e8e9eb;
   height: 100%;
 }
 
@@ -20,16 +20,14 @@ body, html  {
 }
 
 .text {
+  background-color: #313638;
   height: 100%;
   width: 100vw;
-display: flex;
 }
 
 .forground {
-  background-image: url("../img/untitledforground.png");
-}
-
-.placeholder-rect {
-  width: 100vw;
-  background-color: #313638;
+  position: sticky;
+  transform:
+  top: 50%;
+  width: 100%;
 }
