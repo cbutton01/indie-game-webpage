@@ -4,12 +4,17 @@
 }
 
 body, html {
-  background-color: #313638;
   color: #e8e9eb;
-  height: 100%;
+  background-color: #313638;
+}
+
+.header {
+  background-color: #ec796e;
+  text-align: center;
 }
 
 .parallax {
+  padding: 0;
   background-image: url("../img/pacific-crest.png");
   height: 100%;
   width: 100vw;
@@ -20,14 +25,15 @@ body, html {
 }
 
 .text {
+  margin: 0;
+  padding-top: 10px;
   background-color: #313638;
-  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   width: 100vw;
 }
 
 .forground {
-  position: sticky;
-  transform:
-  top: 50%;
+  transform: translateY(10px);
   width: 100%;
 }
