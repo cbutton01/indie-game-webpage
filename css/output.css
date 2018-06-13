@@ -8,8 +8,14 @@ body, html {
   background-color: #313638;
 }
 
+canvas {
+  margin: 0;
+  display: flex;
+  align-self: center;
+}
+
 .header {
-  background-color: #ec796e;
+  background: linear-gradient(#ec796e, #eb7f6e);
   text-align: center;
 }
 
